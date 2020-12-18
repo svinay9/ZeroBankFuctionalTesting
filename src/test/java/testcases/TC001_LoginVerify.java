@@ -41,6 +41,7 @@ public class TC001_LoginVerify extends MainClass {
 				Assert.assertEquals(actual, expected);
 				app_logs.info("verify login test completed");
 				test.log(LogStatus.INFO, "verify Login Test completed");
+				System.out.println("testing jenkins build through git");
 				
 	
 	}
