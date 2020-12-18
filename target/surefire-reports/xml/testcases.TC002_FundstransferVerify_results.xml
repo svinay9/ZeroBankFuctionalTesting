@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.009">
+           time="0.962">
   <properties />
   
   
-            <testcase name="verifyfundstransfer" time="1.009" classname="testcases.TC002_FundstransferVerify" />
+            <testcase name="verifyfundstransfer" time="0.962" classname="testcases.TC002_FundstransferVerify" />
       
 </testsuite>

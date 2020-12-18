@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="FunctionalTestingZeroBank" duration-ms="3814" started-at="2020-12-18T21:13:47Z" finished-at="2020-12-18T21:13:51Z">
+  <suite name="FunctionalTestingZeroBank" duration-ms="4027" started-at="2020-12-18T22:09:34Z" finished-at="2020-12-18T22:09:38Z">
     <groups>
     </groups>
-    <test name="Login Test" duration-ms="1186" started-at="2020-12-18T21:13:47Z" finished-at="2020-12-18T21:13:48Z">
+    <test name="Login Test" duration-ms="1496" started-at="2020-12-18T22:09:34Z" finished-at="2020-12-18T22:09:36Z">
       <class name="testcases.TC001_LoginVerify">
-        <test-method status="FAIL" signature="verifyLogin()[pri:0, instance:testcases.TC001_LoginVerify@78b1cc93]" name="verifyLogin" duration-ms="552" started-at="2020-12-18T16:13:47Z" finished-at="2020-12-18T16:13:48Z">
+        <test-method status="FAIL" signature="verifyLogin()[pri:0, instance:testcases.TC001_LoginVerify@78b1cc93]" name="verifyLogin" duration-ms="886" started-at="2020-12-18T17:09:34Z" finished-at="2020-12-18T17:09:35Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Zero - Account Summary] but found [Zero - Log in]]]>
@@ -58,25 +58,25 @@
         </test-method> <!-- verifyLogin -->
       </class> <!-- testcases.TC001_LoginVerify -->
     </test> <!-- Login Test -->
-    <test name="AddPayee Test" duration-ms="1570" started-at="2020-12-18T21:13:48Z" finished-at="2020-12-18T21:13:50Z">
+    <test name="AddPayee Test" duration-ms="1540" started-at="2020-12-18T22:09:36Z" finished-at="2020-12-18T22:09:37Z">
       <class name="testcases.TC003_AddpayeeVerify">
-        <test-method status="PASS" signature="verifyAddpayee()[pri:0, instance:testcases.TC003_AddpayeeVerify@3745e5c6]" name="verifyAddpayee" duration-ms="1561" started-at="2020-12-18T16:13:48Z" finished-at="2020-12-18T16:13:50Z">
+        <test-method status="PASS" signature="verifyAddpayee()[pri:0, instance:testcases.TC003_AddpayeeVerify@3745e5c6]" name="verifyAddpayee" duration-ms="1517" started-at="2020-12-18T17:09:36Z" finished-at="2020-12-18T17:09:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddpayee -->
       </class> <!-- testcases.TC003_AddpayeeVerify -->
     </test> <!-- AddPayee Test -->
-    <test name="Funds Transfer Test" duration-ms="1028" started-at="2020-12-18T21:13:50Z" finished-at="2020-12-18T21:13:51Z">
+    <test name="Funds Transfer Test" duration-ms="980" started-at="2020-12-18T22:09:37Z" finished-at="2020-12-18T22:09:38Z">
       <class name="testcases.TC002_FundstransferVerify">
-        <test-method status="PASS" signature="init()[pri:0, instance:testcases.TC002_FundstransferVerify@d83da2e]" name="init" is-config="true" duration-ms="6462" started-at="2020-12-18T16:13:41Z" finished-at="2020-12-18T16:13:47Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.TC002_FundstransferVerify@d83da2e]" name="init" is-config="true" duration-ms="6340" started-at="2020-12-18T17:09:28Z" finished-at="2020-12-18T17:09:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyfundstransfer()[pri:0, instance:testcases.TC002_FundstransferVerify@d83da2e]" name="verifyfundstransfer" duration-ms="1009" started-at="2020-12-18T16:13:50Z" finished-at="2020-12-18T16:13:51Z">
+        <test-method status="PASS" signature="verifyfundstransfer()[pri:0, instance:testcases.TC002_FundstransferVerify@d83da2e]" name="verifyfundstransfer" duration-ms="962" started-at="2020-12-18T17:09:37Z" finished-at="2020-12-18T17:09:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyfundstransfer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TC002_FundstransferVerify@d83da2e]" name="tearDown" is-config="true" duration-ms="817" started-at="2020-12-18T16:13:51Z" finished-at="2020-12-18T16:13:52Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TC002_FundstransferVerify@d83da2e]" name="tearDown" is-config="true" duration-ms="773" started-at="2020-12-18T17:09:38Z" finished-at="2020-12-18T17:09:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

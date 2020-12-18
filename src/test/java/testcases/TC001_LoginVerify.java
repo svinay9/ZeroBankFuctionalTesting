@@ -35,7 +35,7 @@ public class TC001_LoginVerify extends MainClass {
 				hp.clicksigninbtn();;
 				lp=new LoginPage(driver);
 				test.log(LogStatus.INFO, "Entered Username and Password");
-				lp.dologin("username", "password1");
+				lp.dologin("username", "password");
 				String actual = driver.getTitle();
 				String expected="Zero - Account Summary";
 				Assert.assertEquals(actual, expected);
