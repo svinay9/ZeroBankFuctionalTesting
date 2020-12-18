@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.008 s <<< FAILURE! - in TestSuite
-testcases.TC001_LoginVerify.verifyLogin  Time elapsed: 1.486 s  <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 11.981 s <<< FAILURE! - in TestSuite
+testcases.TC001_LoginVerify.verifyLogin  Time elapsed: 1.186 s  <<< FAILURE!
 java.lang.AssertionError: expected [Zero - Account Summary] but found [Zero - Log in]
 	at testcases.TC001_LoginVerify.verifyLogin(TC001_LoginVerify.java:41)
 

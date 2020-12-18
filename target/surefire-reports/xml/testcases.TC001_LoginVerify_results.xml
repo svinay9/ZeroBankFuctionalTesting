@@ -4,9 +4,9 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="0.886">
+           time="0.602">
   <properties />
-            <testcase name="verifyLogin" time="0.886" classname="testcases.TC001_LoginVerify">
+            <testcase name="verifyLogin" time="0.602" classname="testcases.TC001_LoginVerify">
                 <failure type="java.lang.AssertionError"
                   message="expected [Zero - Account Summary] but found [Zero - Log in]"
               >
