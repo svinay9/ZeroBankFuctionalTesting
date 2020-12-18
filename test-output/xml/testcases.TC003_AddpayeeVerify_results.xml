@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AddPayee Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.265">
+  <properties />
+  
+  
+            <testcase name="verifyAddpayee" time="2.265" classname="testcases.TC003_AddpayeeVerify" />
+      
+</testsuite>

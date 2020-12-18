@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FunctionalTestingZeroBank">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="main.listners" />
+
+	</listeners>
+	<test name="Login Test">
+		<classes>
+			<class name="testcases.TC001_LoginVerify" />
+		</classes>
+	</test>
+	
+	
+	
+	<test name="AddPayee Test">
+		<classes>
+			<class name="testcases.TC003_AddpayeeVerify" />
+		</classes>
+	</test>
+	
+	<test name="Funds Transfer Test">
+		<classes>
+			<class name="testcases.TC002_FundstransferVerify" />
+		</classes>
+	</test>
+	
+</suite> <!-- Suite -->
+
